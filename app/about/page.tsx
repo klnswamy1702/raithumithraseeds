@@ -31,7 +31,7 @@ export default function AboutUs() {
         <div>
           <h2 className="text-3xl font-semibold text-green-700 mb-4">Vision</h2>
           <ul className="list-disc pl-5 space-y-2 text-black-700">
-            <li>To transform the country's agrarian dynamics.</li>
+            <li>To transform the country agrarian dynamics.</li>
             <li>Reliable source for supply chain industry.</li>
             {/* Add additional points as required */}
           </ul>
