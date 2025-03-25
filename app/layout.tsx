@@ -1,9 +1,8 @@
 // app/layout.tsx
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import logo from '../public/images/logo.png';
 
 // export const metadata: Metadata = {
 //   title: "Raithu Mithra Seeds",

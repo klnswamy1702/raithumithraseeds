@@ -27,7 +27,7 @@ export default function Home() {
             <p className="text-gray-700 leading-relaxed text-justify">
               Three decades of legacy to connect science and technology with traditional farming. 
               Raithu Mithra is pledged to bring the principles of sustainable development to the 
-              farming community. The company foundation was built on the founder's futuristic vision 
+              farming community. The company foundation was built on the founders futuristic vision 
               of transforming the agrarian face of the country with the production of quality Hybrid 
               Seeds and technologically advanced post-harvest infrastructure.
             </p>
