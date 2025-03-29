@@ -20,15 +20,11 @@ const Navbar = () => {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header className="w-full shadow-md border-b border-green-200">
-      {/* 🔹 Top Color Stripe */}
-      <div className="w-full h-1 bg-gradient-to-r from-red-500 via-yellow-400 to-green-500" />
-
+    <header className="w-full shadow-md">
       {/* 🔹 Compact Top Row */}
       <div className="bg-white">
         <div className="container mx-auto flex items-center justify-between px-3 py-1">
-          {/* Left: Logo + Title
-          <div className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2 hover:opacity-90 transition">
             <Image
               src={logo}
               alt="Raithu Mithra Logo"
@@ -37,30 +33,13 @@ const Navbar = () => {
               priority
               className="object-contain"
             />
-            <span className="text-xl sm:text-2xl font-extrabold text-black tracking-wide">
-              Raithu Mithra 
-              <div className="text-xs text-gray-500">
+            <div className="text-xl sm:text-2xl font-extrabold text-black tracking-wide">
+              Raithu Mithra
+              <div className="text-xs text-gray-500 font-normal">
                 CSL 460
               </div>
-            </span>
-          </div> */}
-           <Link href="/" className="flex items-center gap-2 hover:opacity-90 transition">
-            <Image
-                src={logo}
-                alt="Raithu Mithra Logo"
-                width={70}
-                height={70}
-                priority
-                className="object-contain"
-            />
-            <div className="text-xl sm:text-2xl font-extrabold text-black tracking-wide">
-                Raithu Mithra 
-                <div className="text-xs text-gray-500 font-normal">
-                CSL 460
-                </div>
             </div>
-            </Link>
-
+          </Link>
 
           {/* Right: Hamburger / Social Icons */}
           <div className="flex items-center">
