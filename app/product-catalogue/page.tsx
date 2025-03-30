@@ -13,6 +13,7 @@ const productImages = [
     "/images/product8.jpg",
     // add more as needed...
 ];
+//images
 
 export default function ProductCatalogue() {
   return (
