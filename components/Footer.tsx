@@ -58,13 +58,13 @@ const Footer = () => {
       </div>
 
       {/* Bottom Note */}
-      <div className="text-center">
+      {/* <div className="text-center">
         
         <div className="mt-1">
           <Link href="/privacy-policy" className="mr-4">Privacy Policy</Link>
           <Link href="/terms-of-use">Terms of Use</Link>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

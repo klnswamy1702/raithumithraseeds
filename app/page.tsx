@@ -29,7 +29,7 @@ export default function Home() {
 
           <div className="flex-1 relative w-full h-[300px] sm:h-[350px] md:h-[400px]">
             <Image
-              src="/images/about-us.jpg"
+              src="/images/R&D2.jpg"
               alt="About Raithu Mithra Seeds"
               fill
               className="object-cover rounded-lg shadow-lg"
