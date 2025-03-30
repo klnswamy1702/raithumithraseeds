@@ -36,7 +36,7 @@ export default function AboutUs() {
         title="Mission"
         image="/images/mission.jpg"
         reverse
-        description={`Raithu Mithra’s mission is to empower farmers with innovative and dependable seed solutions, promoting sustainable agricultural growth and enhanced productivity across India.`}
+        description={`Raithu Mithra\u2019s mission is to empower farmers with innovative and dependable seed solutions, promoting sustainable agricultural growth and enhanced productivity across India.`}
       />
 
       <Section
@@ -70,7 +70,7 @@ export default function AboutUs() {
             />
           </div>
         </div>
-        <h3 className="text-2xl font-semibold text-gray-700">Mr. [Leader's Full Name]</h3>
+        <h3 className="text-2xl font-semibold text-gray-700">Mr. [Leader\u2019s Full Name]</h3>
       </motion.div>
     </section>
   );

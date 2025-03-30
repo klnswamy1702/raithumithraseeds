@@ -33,7 +33,7 @@ export default function ImageCarousel() {
     return () => clearInterval(interval);
   }, []);
 
-  const goToSlide = (index) => {
+  const goToSlide = (index: number) => {
     setCurrent(index);
   };
 
