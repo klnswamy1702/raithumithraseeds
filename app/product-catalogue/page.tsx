@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-
+//importing next image
 const productImages = [
     "/images/product1.jpg",
     "/images/product2.jpg",

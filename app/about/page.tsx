@@ -1,7 +1,8 @@
 'use client';
 
-import Section from '@/components/Section';
 import Image from 'next/image';
+import Section from '@/components/Section';
+
 import { motion } from 'framer-motion';
 
 const fadeInUp = {
