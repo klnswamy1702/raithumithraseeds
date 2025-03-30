@@ -100,7 +100,7 @@ const Navbar = () => {
               <Link href="/" onClick={closeMenu} className="hover:text-yellow-300">Home</Link>
               <Link href="/about" onClick={closeMenu} className="hover:text-yellow-300">About</Link>
               <Link href="/infrastructure" onClick={closeMenu} className="hover:text-yellow-300">Infrastructure</Link>
-              <Link href="/gallery" onClick={closeMenu} className="hover:text-yellow-300">Gallery</Link>
+              <Link href="/product-catalogue" onClick={closeMenu} className="hover:text-yellow-300">Our Products</Link>
               <Link href="/contact" onClick={closeMenu} className="hover:text-yellow-300">Contact Us</Link>
 
               {/* Social Icons (Mobile) */}
