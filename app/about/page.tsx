@@ -47,32 +47,32 @@ export default function AboutUs() {
       />
 
       {/* Divider */}
-      <div className="border-t border-dashed border-green-200 my-12" />
+      <div className="text-center space-y-8 px-4 py-8 bg-white rounded-lg shadow-md max-w-xl mx-auto">
+  <h2 className="text-4xl font-bold text-green-800 font-[Playfair]">
+    Leadership
+    <span className="block h-1 w-20 bg-green-600 mx-auto mt-2 rounded"></span>
+  </h2>
 
-      {/* Leadership */}
-      <motion.div
-        variants={fadeInUp}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true }}
-        className="text-center space-y-6"
-      >
-        <h2 className="text-5xl font-bold text-green-800 font-[Playfair]">
-          Leadership
-          <span className="block h-1 w-24 bg-green-600 mx-auto mt-2 rounded"></span>
-        </h2>
-        <div className="flex justify-center">
-          <div className="w-[250px] h-[250px] relative rounded-full overflow-hidden shadow-xl hover:shadow-green-100 transition duration-300 hover:scale-105">
-            <Image
-              src="/images/leader.jpg"
-              alt="Leader"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-        <h3 className="text-2xl font-semibold text-gray-700">Mr. [Leader\u2019s Full Name]</h3>
-      </motion.div>
+  <div className="flex justify-center">
+    <div className="w-48 h-48 relative rounded-full overflow-hidden border-4 border-green-600 shadow-sm">
+      <Image
+        src="/images/leaderphoto.jpg"
+        alt="Leader"
+        fill
+        className="object-cover"
+      />
+    </div>
+  </div>
+
+  <div className="space-y-2">
+    <h3 className="text-2xl font-semibold text-gray-800">Mr. Maddula Hari Narayana</h3>
+    <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+      (founder, MD)
+      A visionary leader driving Raithu Mithra Seeds towards innovation and excellence in agriculture.
+    </p>
+  </div>
+</div>
+
     </section>
   );
 }
