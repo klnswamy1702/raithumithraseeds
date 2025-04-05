@@ -21,18 +21,12 @@ const Navbar = () => {
 
   return (
     <header className="w-full shadow-md">
+      {/* 🔹 Elegant Green Gradient Background */}
+      <div className="relative h-24 sm:h-28 bg-gradient-to-r from-green-100 to-green-300">
+        {/* Optional soft white overlay */}
+        <div className="absolute inset-0 bg-white/30 backdrop-blur-sm z-0" />
 
-      {/* 🔹 Background Section */}
-      <div
-        className="relative h-24 sm:h-28 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1592853625602-b0a3fd0b71c0')",
-        }}
-      >
-        {/* Light Overlay */}
-        <div className="absolute inset-0 bg-white/40 backdrop-blur-sm z-0" />
-
-        {/* Content */}
+        {/* Top Row Content */}
         <div className="relative z-10 h-full flex items-center justify-between px-4 container mx-auto">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition">
@@ -46,8 +40,8 @@ const Navbar = () => {
             />
             <div className="text-xl sm:text-2xl font-extrabold text-black tracking-wide leading-tight">
               Raithu Mithra
-              <div className="text-xs sm:text-sm text-gray-600 font-normal">
-                CSL 460
+              <div className="text-xs sm:text-sm text-gray-700 font-normal">
+                ISO 9001:2008
               </div>
             </div>
           </Link>
@@ -56,18 +50,18 @@ const Navbar = () => {
           <div className="flex items-center space-x-3">
             {/* Social Icons */}
             <div className="hidden sm:flex space-x-2">
-              <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+              <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
                 <FaFacebookF className="text-xl text-black" />
               </a>
-              <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+              <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
                 <FaInstagram className="text-xl text-black" />
               </a>
-              <a href="https://www.youtube.com/@Raithumithraseeds" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+              <a href="https://www.youtube.com/@Raithumithraseeds" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
                 <FaYoutube className="text-xl text-black" />
               </a>
             </div>
 
-            {/* Hamburger */}
+            {/* Hamburger Icon */}
             <div className="sm:hidden">
               <button
                 onClick={toggleMenu}
@@ -80,10 +74,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* 🔹 Navigation Bar */}
-      <nav className="bg-green-100 text-green-900 backdrop-blur-sm">
+      {/* 🔹 Navigation Row */}
+      <nav className="bg-green-200 text-green-900">
         <div className="container mx-auto px-4 py-2">
-          {/* Desktop Nav */}
           <div className="hidden sm:flex justify-center gap-6 text-base font-medium">
             <Link href="/" className="hover:text-green-700 transition-all duration-200">Home</Link>
             <Link href="/about" className="hover:text-green-700 transition-all duration-200">About</Link>
@@ -101,15 +94,15 @@ const Navbar = () => {
               <Link href="/product-catalogue" onClick={closeMenu} className="hover:text-green-700">Our Products</Link>
               <Link href="/contact" onClick={closeMenu} className="hover:text-green-700">Contact Us</Link>
 
-              {/* Social Icons (Mobile) */}
+              {/* Mobile Social Icons */}
               <div className="flex space-x-3 pt-3">
-                <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
                   <FaFacebookF className="text-xl text-black" />
                 </a>
-                <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
                   <FaInstagram className="text-xl text-black" />
                 </a>
-                <a href="https://www.youtube.com/@Raithumithraseeds`  " target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
                   <FaYoutube className="text-xl text-black" />
                 </a>
               </div>
