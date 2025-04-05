@@ -1,5 +1,6 @@
-import Head from 'next/head';
 'use client';
+import Head from 'next/head';
+
 
 import Image from 'next/image';
 import Section from '@/components/Section';
