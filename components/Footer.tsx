@@ -12,7 +12,7 @@ const Footer = () => {
             <h2 className="text-lg font-bold mb-4">ABOUT</h2>
             <p className="text-sm text-gray-300 leading-relaxed">
               RaithuMithra Seeds is pledged to bring the principles of sustainable development to the farming community.
-              The company's foundation was built on the founders' futuristic vision of transforming the agrarian face
+              The companys foundation was built on the founders futuristic vision of transforming the agrarian face
               of the country with the production of quality Hybrid Seeds and technologically advanced post-harvest infrastructure.
               We boast of three decades of sheer legacy committed to connecting traditional farming methods with new-age science and technology.
             </p>
@@ -34,7 +34,7 @@ const Footer = () => {
             <h2 className="text-lg font-bold mb-4">CONTACT US</h2>
             <p className="text-sm text-gray-300 mb-2">
               1-1-4/4 Mahalaxmi Colony,<br />
-              Armoor – 504224, Nizamabad Dist.,<br />
+              Armoor 504224, Nizamabad Dist.,<br />
               Telangana.
             </p>
             <p className="text-sm text-gray-300 mb-2">
