@@ -8,7 +8,7 @@ export default function Infrastructure() {
     { title: "Maize", image: "/images/maize.jpg" },
     { title: "White Jowar", image: "/images/whitejowar.jpg" },
     { title: "Red Jowar", image: "/images/redjowar.jpg" },
-    { title: "Bajra", image: "/images/bajra.jpg" },
+    { title: "Soya", image: "/images/bajra.jpg" },
     { title: "Pearl Millet", image: "/images/pearl-millet.jpg" },
     { title: "Sunflower", image: "/images/sunflower.jpg" },
     { title: "Small Paddy", image: "/images/small-paddy.jpg" },

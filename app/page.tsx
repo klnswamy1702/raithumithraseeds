@@ -1,5 +1,8 @@
 import Image from "next/image";
 import ImageCarousel from "@/components/ImageCarousel";
+import AboutSnippet from "@/components/AboutSnippet";
+import InfrastructureSnippet from "@/components/InfrastructureSnippet";
+import ProductSnippet from "@/components/ProductSnippet";
 
 export default function Home() {
   
@@ -13,7 +16,7 @@ export default function Home() {
 
       {/* 🔹 About Section */}
       <section className="container mx-auto px-6 py-16">
-        <div className="flex flex-col md:flex-row items-center gap-10">
+        {/* <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="flex-1">
             <h1 className="text-3xl md:text-4xl font-bold text-green-700 mb-4">
               About Raithu Mithra Seeds
@@ -35,7 +38,19 @@ export default function Home() {
               className="object-cover rounded-lg shadow-lg"
             />
           </div>
-        </div>
+        </div> */}
+
+        <section className="w-full">
+        <AboutSnippet/>
+      </section>
+      <section className="w-full">
+        <InfrastructureSnippet/>
+      </section>
+
+      <section className="w-full">
+        <ProductSnippet/>
+      </section>
+
       </section>
 
     

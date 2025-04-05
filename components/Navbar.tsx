@@ -34,20 +34,19 @@ const Navbar = () => {
 
         {/* Content */}
         <div className="relative z-10 h-full flex items-center justify-between px-4 container mx-auto">
-
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 hover:opacity-90 transition">
+          <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition">
             <Image
               src={logo}
               alt="Raithu Mithra Logo"
-              width={60}
-              height={60}
+              width={80}
+              height={80}
               priority
-              className="object-contain"
+              className="object-contain sm:w-[90px] sm:h-[90px]"
             />
-            <div className="text-lg sm:text-xl font-extrabold text-black tracking-wide">
+            <div className="text-xl sm:text-2xl font-extrabold text-black tracking-wide leading-tight">
               Raithu Mithra
-              <div className="text-xs text-gray-600 font-normal">
+              <div className="text-xs sm:text-sm text-gray-600 font-normal">
                 CSL 460
               </div>
             </div>
@@ -55,16 +54,15 @@ const Navbar = () => {
 
           {/* Socials & Hamburger */}
           <div className="flex items-center space-x-3">
-
             {/* Social Icons */}
             <div className="hidden sm:flex space-x-2">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+              <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
                 <FaFacebookF className="text-xl text-black" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+              <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
                 <FaInstagram className="text-xl text-black" />
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+              <a href="https://www.youtube.com/@Raithumithraseeds" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
                 <FaYoutube className="text-xl text-black" />
               </a>
             </div>
@@ -83,35 +81,35 @@ const Navbar = () => {
       </div>
 
       {/* 🔹 Navigation Bar */}
-      <nav className="bg-green-600/80 backdrop-blur-sm">
+      <nav className="bg-green-100 text-green-900 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-2">
           {/* Desktop Nav */}
-          <div className="hidden sm:flex justify-center gap-6 text-base font-medium text-white">
-            <Link href="/" className="hover:text-yellow-300 transition-all duration-200">Home</Link>
-            <Link href="/about" className="hover:text-yellow-300 transition-all duration-200">About</Link>
-            <Link href="/infrastructure" className="hover:text-yellow-300 transition-all duration-200">Infrastructure</Link>
-            <Link href="/product-catalogue" className="hover:text-yellow-300 transition-all duration-200">Our Products</Link>
-            <Link href="/contact" className="hover:text-yellow-300 transition-all duration-200">Contact Us</Link>
+          <div className="hidden sm:flex justify-center gap-6 text-base font-medium">
+            <Link href="/" className="hover:text-green-700 transition-all duration-200">Home</Link>
+            <Link href="/about" className="hover:text-green-700 transition-all duration-200">About</Link>
+            <Link href="/infrastructure" className="hover:text-green-700 transition-all duration-200">Infrastructure</Link>
+            <Link href="/product-catalogue" className="hover:text-green-700 transition-all duration-200">Our Products</Link>
+            <Link href="/contact" className="hover:text-green-700 transition-all duration-200">Contact Us</Link>
           </div>
 
           {/* Mobile Nav */}
           {menuOpen && (
-            <div className="sm:hidden mt-2 flex flex-col items-start gap-3 text-base font-medium text-white">
-              <Link href="/" onClick={closeMenu} className="hover:text-yellow-300">Home</Link>
-              <Link href="/about" onClick={closeMenu} className="hover:text-yellow-300">About</Link>
-              <Link href="/infrastructure" onClick={closeMenu} className="hover:text-yellow-300">Infrastructure</Link>
-              <Link href="/product-catalogue" onClick={closeMenu} className="hover:text-yellow-300">Our Products</Link>
-              <Link href="/contact" onClick={closeMenu} className="hover:text-yellow-300">Contact Us</Link>
+            <div className="sm:hidden mt-2 flex flex-col items-start gap-3 text-base font-medium">
+              <Link href="/" onClick={closeMenu} className="hover:text-green-700">Home</Link>
+              <Link href="/about" onClick={closeMenu} className="hover:text-green-700">About</Link>
+              <Link href="/infrastructure" onClick={closeMenu} className="hover:text-green-700">Infrastructure</Link>
+              <Link href="/product-catalogue" onClick={closeMenu} className="hover:text-green-700">Our Products</Link>
+              <Link href="/contact" onClick={closeMenu} className="hover:text-green-700">Contact Us</Link>
 
               {/* Social Icons (Mobile) */}
               <div className="flex space-x-3 pt-3">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+                <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
                   <FaFacebookF className="text-xl text-black" />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+                <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
                   <FaInstagram className="text-xl text-black" />
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+                <a href="https://www.youtube.com/@Raithumithraseeds" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
                   <FaYoutube className="text-xl text-black" />
                 </a>
               </div>
