@@ -1,6 +1,17 @@
+import Head from 'next/head';
 export default function ContactUs() {
   return (
     <section className="bg-gray-50">
+       <Head>
+        <title>Raithu Mithra Seeds | Sustainable Farming & Hybrid Seeds</title>
+        <meta name="description" content="Raithu Mithra Seeds is a trusted name for hybrid seeds and sustainable agriculture infrastructure in Telangana and beyond." />
+        <meta name="keywords" content="Raithu Mithra, Raithumithra Seeds, Hybrid Seeds, Telangana, Armoor, Sustainable Farming" />
+        <meta name="author" content="Raithu Mithra Seeds" />
+        <meta property="og:title" content="Raithu Mithra Seeds" />
+        <meta property="og:description" content="Sustainable agriculture solutions and hybrid seeds from Raithu Mithra." />
+        <meta property="og:url" content="https://raithumithraseeds.com" />
+        <meta property="og:type" content="website" />
+      </Head>
       <div className="container mx-auto px-6 py-16">
         <h1 className="text-4xl font-semibold text-green-800 text-center mb-12">Contact Us</h1>
 
@@ -27,8 +38,8 @@ export default function ContactUs() {
           <div className="bg-white shadow-lg p-6 rounded-xl">
             <h2 className="text-2xl font-bold text-green-700 mb-2">Plant Address</h2>
             <p className="text-black">
-              Raithu Mithra Seeds,<br />
-              NH-63, Ankapur, Armoor,<br />
+              Raithu Mithra Seeds<br />
+              Laxmi Godam, NH-63, Ankapur, Armoor,<br />
               Nizamabad, Telangana, India.
             </p>
             <p className="mt-2 text-black font-semibold">Customer Care Helpline:</p>

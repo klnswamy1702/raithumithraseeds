@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import ImageCarousel from "@/components/ImageCarousel";
 import AboutSnippet from "@/components/AboutSnippet";
 import InfrastructureSnippet from "@/components/InfrastructureSnippet";
@@ -6,7 +7,19 @@ import ProductSnippet from "@/components/ProductSnippet";
 export default function Home() {
   
   return (
+    
+
     <div className="flex flex-col items-center justify-center">
+      <Head>
+        <title>Raithu Mithra Seeds | Sustainable Farming & Hybrid Seeds</title>
+        <meta name="description" content="Raithu Mithra Seeds is a trusted name for hybrid seeds and sustainable agriculture infrastructure in Telangana and beyond." />
+        <meta name="keywords" content="Raithu Mithra, Raithumithra Seeds, Hybrid Seeds, Telangana, Armoor, Sustainable Farming" />
+        <meta name="author" content="Raithu Mithra Seeds" />
+        <meta property="og:title" content="Raithu Mithra Seeds" />
+        <meta property="og:description" content="Sustainable agriculture solutions and hybrid seeds from Raithu Mithra." />
+        <meta property="og:url" content="https://raithumithraseeds.com" />
+        <meta property="og:type" content="website" />
+      </Head>
 
       {/* 🔹 Carousel */}
       <section className="w-full">

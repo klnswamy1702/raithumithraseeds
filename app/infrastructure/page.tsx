@@ -1,3 +1,4 @@
+import Head from 'next/head';
 'use client';
 
 import Image from 'next/image';
@@ -16,6 +17,16 @@ export default function Infrastructure() {
 
   return (
     <section className="container mx-auto px-4 py-12 space-y-16">
+       <Head>
+        <title>Raithu Mithra Seeds | Sustainable Farming & Hybrid Seeds</title>
+        <meta name="description" content="Raithu Mithra Seeds is a trusted name for hybrid seeds and sustainable agriculture infrastructure in Telangana and beyond." />
+        <meta name="keywords" content="Raithu Mithra, Raithumithra Seeds, Hybrid Seeds, Telangana, Armoor, Sustainable Farming" />
+        <meta name="author" content="Raithu Mithra Seeds" />
+        <meta property="og:title" content="Raithu Mithra Seeds" />
+        <meta property="og:description" content="Sustainable agriculture solutions and hybrid seeds from Raithu Mithra." />
+        <meta property="og:url" content="https://raithumithraseeds.com" />
+        <meta property="og:type" content="website" />
+      </Head>
       <h1 className="text-4xl font-bold text-green-800 mb-8 text-center">
         Infrastructure
       </h1>

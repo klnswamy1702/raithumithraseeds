@@ -109,7 +109,7 @@ const Navbar = () => {
                 <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
                   <FaInstagram className="text-xl text-black" />
                 </a>
-                <a href="https://www.youtube.com/@Raithumithraseeds" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
+                <a href="https://www.youtube.com/@Raithumithraseeds`  " target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-red-100 transition-transform duration-300 hover:scale-110">
                   <FaYoutube className="text-xl text-black" />
                 </a>
               </div>
