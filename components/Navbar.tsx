@@ -4,11 +4,11 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  FaFacebookF,
   FaInstagram,
   FaYoutube,
   FaBars,
   FaTimes,
+  FaWhatsapp,
 } from 'react-icons/fa';
 
 import logo from '../public/images/logo.png';
@@ -50,8 +50,8 @@ const Navbar = () => {
           <div className="flex items-center space-x-3">
             {/* Social Icons */}
             <div className="hidden sm:flex space-x-2">
-              <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
-                <FaFacebookF className="text-xl text-black" />
+              <a href="http://wa.me/918977624884" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
+                <FaWhatsapp className="text-xl text-black" />
               </a>
               <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
                 <FaInstagram className="text-xl text-black" />
@@ -96,13 +96,13 @@ const Navbar = () => {
 
               {/* Mobile Social Icons */}
               <div className="flex space-x-3 pt-3">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
-                  <FaFacebookF className="text-xl text-black" />
+                <a href="http://wa.me/918977624884" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
+                  <FaWhatsapp className="text-xl text-black" />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
+                <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
                   <FaInstagram className="text-xl text-black" />
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
+                <a href="https://www.youtube.com/@Raithumithraseeds" target="_blank" rel="noopener noreferrer" className="bg-white rounded-full p-2 hover:bg-green-100 transition-transform duration-300 hover:scale-110">
                   <FaYoutube className="text-xl text-black" />
                 </a>
               </div>

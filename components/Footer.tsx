@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-gray-300">
               <li><Link href="/about">About Us</Link></li>
               <li><Link href="/infrastructure">Infrastructure</Link></li>
-              <li><Link href="/product-catalogue">Our Products</Link></li>
+              <li><Link href="/product-catalogue">Products</Link></li>
               <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
@@ -55,8 +55,8 @@ const Footer = () => {
             </p>
 
             <div className="flex space-x-4 mt-4 text-white">
-              <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer">
-                <FaFacebookF className="text-xl hover:text-yellow-400" />
+              <a href="http://wa.me/918977624884" target="_blank" rel="noopener noreferrer">
+                <FaWhatsapp className="text-xl hover:text-yellow-400" />
               </a>
               <a href="https://www.instagram.com/raithumithra_seeds/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="text-xl hover:text-yellow-400" />
