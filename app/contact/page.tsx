@@ -1,8 +1,9 @@
 import Head from 'next/head';
+
 export default function ContactUs() {
   return (
     <section className="bg-gray-50">
-       <Head>
+      <Head>
         <title>Raithu Mithra Seeds | Sustainable Farming & Hybrid Seeds</title>
         <meta name="description" content="Raithu Mithra Seeds is a trusted name for hybrid seeds and sustainable agriculture infrastructure in Telangana and beyond." />
         <meta name="keywords" content="Raithu Mithra, Raithumithra Seeds, Hybrid Seeds, Telangana, Armoor, Sustainable Farming" />
@@ -12,40 +13,44 @@ export default function ContactUs() {
         <meta property="og:url" content="https://raithumithraseeds.com" />
         <meta property="og:type" content="website" />
       </Head>
+
       <div className="container mx-auto px-6 py-16">
         <h1 className="text-4xl font-semibold text-green-800 text-center mb-12">Contact Us</h1>
 
         {/* Contact Info Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12 text-center">
-          {/* Office Address */}
+          {/* Head Office Address */}
           <div className="bg-white shadow-lg p-6 rounded-xl">
             <h2 className="text-2xl font-bold text-green-700 mb-2">Head Office</h2>
             <p className="text-black">
-              1-1-4/4 Mahalaxmi Colony,<br />
-              Armoor 504224, Nizamabad Dist.,<br />
-              Telangana, India.
+              Raithu Mithra Seeds<br />
+              1-1-4/4, Mahalaxmi Colony,<br />
+              Armoor, Nizamabad Dist,<br />
+              Telangana, India – 503224
             </p>
             <p className="mt-2 text-black">
-              Email: <a href="mailto:seedsraithumithra@gmail.com" className="text-blue-700 underline">seedsraithumithra@gmail.com</a>
+              Email:{' '}
+              <a
+                href="mailto:seedsraithumithra@gmail.com"
+                className="text-blue-700 underline"
+              >
+                seedsraithumithra@gmail.com
+              </a>
             </p>
-            {/* <p className="mt-2 text-black font-semibold">Customer Care Helpline:</p>
-            <p className="text-black">+91 9912686771</p> */}
-            <p className="mt-2 text-black font-semibold">Contact Numbers:</p>
-            <p className="text-black">9550450821 / 9912686771</p>
+            <p className="mt-2 text-black font-semibold">Contact Number:</p>
+            <p className="text-black">+91 9912686771</p>
           </div>
 
-          {/* Plant Address */}
+          {/* Industrial Plant Address */}
           <div className="bg-white shadow-lg p-6 rounded-xl">
-            <h2 className="text-2xl font-bold text-green-700 mb-2">Plant Address</h2>
+            <h2 className="text-2xl font-bold text-green-700 mb-2">Industrial Address</h2>
             <p className="text-black">
               Raithu Mithra Seeds<br />
               Laxmi Godam, NH-63, Ankapur, Armoor,<br />
-              Nizamabad, Telangana, India.
+              Nizamabad, Telangana, India – 503224
             </p>
-            <p className="mt-2 text-black font-semibold">Customer Care Helpline:</p>
-            <p className="text-black">+91 9912686771</p>
-            <p className="mt-4 text-black font-semibold">Contact Numbers:</p>
-            <p className="text-black">9550450821 / 9912686771</p>
+            <p className="mt-2 text-black font-semibold">Helpline No:</p>
+            <p className="text-black">+91 9550450821</p>
           </div>
         </div>
 

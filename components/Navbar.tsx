@@ -81,7 +81,7 @@ const Navbar = () => {
             <Link href="/" className="hover:text-green-700 transition-all duration-200">Home</Link>
             <Link href="/about" className="hover:text-green-700 transition-all duration-200">About</Link>
             <Link href="/infrastructure" className="hover:text-green-700 transition-all duration-200">Infrastructure</Link>
-            <Link href="/product-catalogue" className="hover:text-green-700 transition-all duration-200">Our Products</Link>
+            <Link href="/product-catalogue" className="hover:text-green-700 transition-all duration-200">Products</Link>
             <Link href="/contact" className="hover:text-green-700 transition-all duration-200">Contact Us</Link>
           </div>
 
@@ -91,7 +91,7 @@ const Navbar = () => {
               <Link href="/" onClick={closeMenu} className="hover:text-green-700">Home</Link>
               <Link href="/about" onClick={closeMenu} className="hover:text-green-700">About</Link>
               <Link href="/infrastructure" onClick={closeMenu} className="hover:text-green-700">Infrastructure</Link>
-              <Link href="/product-catalogue" onClick={closeMenu} className="hover:text-green-700">Our Products</Link>
+              <Link href="/product-catalogue" onClick={closeMenu} className="hover:text-green-700">Products</Link>
               <Link href="/contact" onClick={closeMenu} className="hover:text-green-700">Contact Us</Link>
 
               {/* Mobile Social Icons */}

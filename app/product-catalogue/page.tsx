@@ -5,14 +5,14 @@ import Head from 'next/head';
 import Image from 'next/image';
 //importing next image
 const productImages = [
-    "/images/product1.jpg",
-    "/images/product2.jpg",
-    "/images/product3.jpg",
-    "/images/product4.jpg",
-    "/images/product5.jpg",
-    "/images/product6.jpg",
-    "/images/product7.jpg",
-    "/images/product8.jpg",
+    "/images/produc1.jpg",
+    "/images/produc2.jpg",
+    "/images/produc3.jpg",
+    "/images/produc4.jpg",
+    "/images/produc5.jpg",
+    "/images/produc6.jpg",
+    "/images/produc7.jpg",
+    "/images/produc8.jpg",
     // add more as needed...
 ];
 //images
@@ -31,7 +31,7 @@ export default function ProductCatalogue() {
         <meta property="og:type" content="website" />
       </Head>
       <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8">
-        OUR Products
+        Products
       </h1>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">

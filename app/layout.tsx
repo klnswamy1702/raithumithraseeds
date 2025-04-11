@@ -1,8 +1,7 @@
+// app/layout.tsx
 import './globals.css';
-import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500'] });
@@ -33,23 +32,13 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Raithu Mithra Seeds',
     description: 'Empowering farmers with high-quality seeds.',
-    images: ['./public/images/logo.png'],
+    images: ['/images/logo.png'],
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <Head>
-        <title>Raithu Mithra Seeds | Sustainable Farming & Hybrid Seeds</title>
-        <meta name="description" content="Raithu Mithra Seeds is a trusted name for hybrid seeds and sustainable agriculture infrastructure in Telangana and beyond." />
-        <meta name="keywords" content="Raithu Mithra, Raithumithra Seeds, Hybrid Seeds, Telangana, Armoor, Sustainable Farming" />
-        <meta name="author" content="Raithu Mithra Seeds" />
-        <meta property="og:title" content="Raithu Mithra Seeds" />
-        <meta property="og:description" content="Sustainable agriculture solutions and hybrid seeds from Raithu Mithra." />
-        <meta property="og:url" content="https://raithumithraseeds.com" />
-        <meta property="og:type" content="website" />
-      </Head>
       <body className={`${inter.className} bg-gradient-to-br from-white via-green-50 to-white`}>
         <Navbar />
         {children}
