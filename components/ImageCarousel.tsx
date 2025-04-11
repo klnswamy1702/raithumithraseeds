@@ -17,7 +17,7 @@ const slides = [
     subtitle: "Delivering high-yield, disease-resistant seeds"
   },
   {
-    src: "/images/allseeds.png",
+    src: "/images/allseeds_hd.jpg",
     title: "Best Products",
     subtitle: "Enriching agriculture with premium agri-inputs"
   }

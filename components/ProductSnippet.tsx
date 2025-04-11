@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export default function ProductsSnippet() {
   const productImages = [
-    "/images/product1.jpg",
-    "/images/product2.jpg",
-    "/images/product3.jpg",
-    "/images/product4.jpg",
+    "/images/produc1.jpg",
+    "/images/produc2.jpg",
+    "/images/produc3.jpg",
+    "/images/produc4.jpg",
   ];
 
   return (
@@ -22,7 +22,7 @@ export default function ProductsSnippet() {
         {productImages.map((src, index) => (
           <div
             key={index}
-            className="relative w-full h-[200px] sm:h-[250px] md:h-[250px] rounded overflow-hidden shadow-lg"
+            className="relative w-full aspect-[4/5] rounded overflow-hidden shadow-lg"
           >
             <Image
               src={src}
