@@ -14,7 +14,7 @@ export default function ProductsSnippet() {
   return (
     <section className="container mx-auto px-4 sm:px-6 py-12 sm:py-16">
       <h2 className="text-2xl sm:text-3xl font-semibold text-green-700 mb-10 text-center">
-        Our Products
+        Products
       </h2>
 
       {/* 🖼️ Image Grid */}

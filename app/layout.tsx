@@ -3,10 +3,11 @@ import './globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Inter } from 'next/font/google';
+import type { Metadata } from 'next';
 
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500'] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Raithu Mithra Seeds',
   description: 'Empowering farmers with high-quality seeds and modern agriculture.',
   icons: {
@@ -41,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={`${inter.className} bg-gradient-to-br from-white via-green-50 to-white`}>
         <Navbar />
-        {children}
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

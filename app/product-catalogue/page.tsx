@@ -16,7 +16,7 @@ const productImages = [
 
 export default function ProductCatalogue() {
   return (
-    <section className="container mx-auto px-4 py-10">
+    <section className="bg-white w-full min-h-screen">
       <Head>
         <title>Raithu Mithra Seeds | Sustainable Farming & Hybrid Seeds</title>
         <meta name="description" content="Raithu Mithra Seeds is a trusted name for hybrid seeds and sustainable agriculture infrastructure in Telangana and beyond." />
@@ -28,24 +28,24 @@ export default function ProductCatalogue() {
         <meta property="og:type" content="website" />
       </Head>
 
-      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-10">
-        Products
-      </h1>
+      <div className="container mx-auto px-6 py-16">
+        <h1 className="text-4xl font-bold text-center text-green-700 mb-12">Products</h1>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
-        {productImages.map((src, index) => (
-          <div
-            key={index}
-            className="relative w-full aspect-[4/5] bg-gray-100 rounded overflow-hidden shadow-lg"
-          >
-            <Image
-              src={src}
-              alt={`Product ${index + 1}`}
-              fill
-              className="object-cover"
-            />
-          </div>
-        ))}
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          {productImages.map((src, index) => (
+            <div
+              key={index}
+              className="relative w-full aspect-[4/5] bg-white rounded-xl overflow-hidden shadow-lg"
+            >
+              <Image
+                src={src}
+                alt={`Product ${index + 1}`}
+                fill
+                className="object-cover"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

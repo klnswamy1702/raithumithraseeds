@@ -5,7 +5,7 @@ import Section from '@/components/Section';
 
 export default function AboutUs() {
   return (
-    <section className="bg-green-700 pb-12">
+    <section className="bg-green-100 pb-12">
       <Head>
         <title>Raithu Mithra Seeds | Sustainable Farming & Hybrid Seeds</title>
         <meta name="description" content="Raithu Mithra Seeds is a trusted name for hybrid seeds and sustainable agriculture infrastructure in Telangana and beyond." />
@@ -17,9 +17,9 @@ export default function AboutUs() {
         <meta property="og:type" content="website" />
       </Head>
 
-      {/* White Page Title */}
+      {/* Light Green Page Title */}
       <div className="py-16 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-white">About Us</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-green-800">About Us</h1>
       </div>
 
       {/* Main Sections - Light background */}

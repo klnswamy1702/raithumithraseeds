@@ -15,7 +15,7 @@ export default function Infrastructure() {
   ];
 
   return (
-    <section className="bg-green-700 pb-12">
+    <section className="bg-green-100 pb-12">
       <Head>
         <title>Raithu Mithra Seeds | Sustainable Farming & Hybrid Seeds</title>
         <meta name="description" content="Raithu Mithra Seeds is a trusted name for hybrid seeds and sustainable agriculture infrastructure in Telangana and beyond." />
@@ -27,9 +27,9 @@ export default function Infrastructure() {
         <meta property="og:type" content="website" />
       </Head>
 
-      {/* White Heading */}
+      {/* Light Green Heading */}
       <div className="py-16 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-white">Infrastructure</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-green-800">Infrastructure</h1>
       </div>
 
       {/* Image Grid */}
@@ -54,7 +54,7 @@ export default function Infrastructure() {
         ))}
       </div>
 
-      {/* ----------- R&D Section ----------- */}
+      {/* R&D Section */}
       <div className="bg-white py-16 px-4 md:px-12 space-y-12">
         <div className="text-center space-y-4 max-w-3xl mx-auto">
           <h2 className="text-3xl font-semibold text-green-700">Research and Development</h2>
@@ -83,7 +83,7 @@ export default function Infrastructure() {
         </div>
       </div>
 
-      {/* ----------- Seed Production Section ----------- */}
+      {/* Seed Production Section */}
       <div className="bg-white py-16 px-4 md:px-12 space-y-12">
         <div className="text-center space-y-4 max-w-3xl mx-auto">
           <h2 className="text-3xl font-semibold text-green-700">Seed Production</h2>
