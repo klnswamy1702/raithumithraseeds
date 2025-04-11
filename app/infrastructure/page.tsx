@@ -11,7 +11,7 @@ export default function Infrastructure() {
     { title: "Soya", image: "/images/bajra.jpg" },
     { title: "Pearl Millet", image: "/images/pearl-millet.jpg" },
     { title: "Sunflower", image: "/images/sunflower.jpg" },
-    { title: "Small Paddy", image: "/images/small-paddy.jpg" },
+    { title: "Fine Paddy", image: "/images/small-paddy.jpg" },
   ];
 
   return (
